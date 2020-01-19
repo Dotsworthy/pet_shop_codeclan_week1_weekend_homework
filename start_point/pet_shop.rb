@@ -40,4 +40,9 @@ def find_pet_by_name(pet_shop, pet_name)
       return found_name
     end
   end
+  if found_name.include?(pet_name)
+    return found_name
+  else
+    found_name = nil
+  end
 end
