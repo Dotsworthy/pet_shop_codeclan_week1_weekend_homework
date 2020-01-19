@@ -22,3 +22,14 @@ end
 def stock_count(shop_name)
   count = shop_name[:pets].length
 end
+
+def pets_by_breed(pet_shop, breed_name)
+  breed_count_found = []
+  #loop inside pet shop array for finding breed name
+  for pets in pet_shop[:pets]
+    if pets[:breed].include?(breed_name)
+      breed_count_found.unshift(pets[:breed])
+    end
+  end
+  return breed_count_found
+end
