@@ -10,3 +10,11 @@ def add_or_remove_cash(shop_name, amount)
   cash = 0
   cash = shop_name[:admin][:total_cash] += amount
 end
+
+def pets_sold(shop_name)
+  sold = shop_name[:admin][:pets_sold]
+end
+
+def increase_pets_sold(shop_name, amount)
+  sold = shop_name[:admin][:pets_sold] += amount
+end
