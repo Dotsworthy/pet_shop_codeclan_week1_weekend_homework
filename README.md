@@ -1,6 +1,6 @@
-### Pet Shop Testing Homework Week 1 Weekend Homework
+## Pet Shop Testing Homework Week 1 Weekend Homework
 
-#### Pet Shop
+### Pet Shop
 
 For your weekend homework your task is to write some functions to be used in a pet shop.
 
